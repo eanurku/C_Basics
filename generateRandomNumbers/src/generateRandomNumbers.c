@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : SumWithoutPlusOperator.c
+ Name        : generateRandomNumbers.c
  Author      : kanurag@
  Version     :
  Copyright   : Your copyright notice
@@ -11,14 +11,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int sum(int a,int b){
-	printf("%*c%*c",a,'x',b,'y');
-	return printf("%*c%*c",a,' ',b,' ');
-
-}
 int main(void) {
 
+	//randome numbers
+		srand(time(NULL));
+		for(int i=0;i<5;i++){
 
-	printf("sum=%d",sum(2,3));
+			printf("%d,",random()%100);
+		}
+
 	return EXIT_SUCCESS;
 }

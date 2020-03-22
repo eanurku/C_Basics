@@ -41,13 +41,14 @@ int main(void) {
 
 char string[20]="banu";
 char source[20]="anu";
-
-	printf("%d\n",_strlen(string));
+//
+//	printf("%d\n",_strlen(string));
 
    /* strcpy(string,source);
     printf("%s\n",string);
 
     printf("%d\n",_strcmp(string,source));*/
 
+	printf("value=%d\n",'\0');
 	return EXIT_SUCCESS;
 }

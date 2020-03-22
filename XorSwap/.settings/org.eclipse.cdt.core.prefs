@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1229314064/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1229314064/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1229314064/PATH/value=${MINGW_HOME}/bin\:${MSYS_HOME}/bin\:${MSYS_HOME}/usr/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/usr/bin/gcc
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1229314064/append=true
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1229314064/appendContributed=true
